@@ -302,8 +302,8 @@ h2 {
 
 .big_photo {
   position: relative;
-  top: 150px;
-  right: 920px; }
+  bottom: 530px;
+  right: 37px; }
 
 .on_photo {
   width: 380px;
@@ -311,7 +311,7 @@ h2 {
   background: white;
   position: relative;
   bottom: 470px;
-  left: 500px;
+  left: 30px;
   font-family: 'Lobster', cursive; }
 
 .transform_click {
