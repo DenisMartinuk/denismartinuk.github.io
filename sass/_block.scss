@@ -1,0 +1,90 @@
+h2{
+	font-size: 40px;
+}
+
+.mini_history{
+	position: relative;
+	bottom: 130px;
+}
+
+.section_one{
+	position: relative;
+	right: 1030px;
+	top: 20px;
+}
+
+.section_two{
+	text-align: center;
+	position: relative;
+	bottom: 380px;
+	left: 500px;
+}
+
+.section_three{
+	position: relative;
+	text-align: center;
+	bottom: 770px;
+}
+
+.developments_name{
+	position: relative;
+	bottom: 700px;
+}
+/*
+.body{
+	background: gray;
+}
+*/
+.right-text{
+	position: relative;
+	bottom: 700px;
+	text-decoration: underline;
+}
+
+.left-block{
+	
+	text-align: center;
+	position: relative;
+	bottom: 600px;
+	right: 500px;
+	width: 362px;
+	height: 610px;
+	background: white;
+	right: 850px;
+}
+
+.mini-logo_left{
+	position: relative;
+	bottom: 25px;
+}
+
+.right-block{
+	position: relative;
+	bottom: 1210px;
+	text-align: center;
+	right: 100px;
+	width:362px;
+	height: 610px;
+	background: white;
+	}
+
+.mini-logo_right{
+	position: relative;
+	bottom: 25px;
+}
+
+.left-block:hover{
+	box-shadow: $shadow;
+}
+
+.right-block:hover{
+	box-shadow: $shadow;
+}
+
+.all_blue{
+	color:blue;
+}
+
+footer{
+	background: #f1f1f1;
+}
