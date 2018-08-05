@@ -131,3 +131,76 @@ box-shadow: $shadow;
 	color: white;
 	background-color:blue;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:960px){
+	
+.big_photo{
+	position:relative;
+	top: 330px;
+	right: 37px;
+}
+
+.all_three_block{
+position: relativ;
+top: 430px;
+}
+
+.news_left_block{
+	position: relative;
+	background: #ffffff;
+	width: 363px;
+	height: 450px;
+	top: 100px;
+	right: 10px;
+	border-radius: 10px;
+	
+}
+
+.news_center_block{
+	position: relative;
+	background: #ffffff;
+	width: 363px;
+	height: 450px;
+	border-radius: 10px;
+	top: 160px;
+}
+
+.news_right_block{
+	position: relative;
+	background: #ffffff;
+	width: 363px;
+	height: 450px;
+	border-radius: 10px;
+	left: -1px;
+	top: 250px;
+}
+
+.Recent_name{
+	top: 50px;
+}
+
+	/*
+.big_photo{
+
+	width: 363px;
+	height: 450px;
+	top: 250px;
+	right: 400px;
+	border-radius: 10px;
+	
+}
+*/
+
+
+
+}

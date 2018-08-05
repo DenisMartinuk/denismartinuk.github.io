@@ -10,7 +10,7 @@ font-family: OpenSana;
 .podzagolowok{
 	color: gray;
 	position: absolute;
-	right: 10px;
+	right: 1%;
 	top: 45px;
 	z-index: 2;
 }
@@ -24,6 +24,7 @@ border: 1px solid #0054a4;
 	border-radius: 100px;
 	color: #0054a4;
 	padding: 8px;
+	margin-bottom: 18%;
 }
 
 .donat{
@@ -40,9 +41,9 @@ border: 1px solid #0054a4;
 
 .hi{
 	z-index: 2;
-position: relative;
-top: -50px;	
-left: 70px;
+	position: relative;
+	bottom: 30px;	
+	left: 70px;
 }
 
 header{
@@ -87,7 +88,7 @@ h1{
 .pre1{
 	text-align: center;
 	width: 350px;
-	height: 150px;
+	height:150px;
 	background: #6fbd2a;
 	border-radius:30px;
 	position: relative;
@@ -131,4 +132,78 @@ pre{
    font-family: arial;
    color: white;
    z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:960px){
+	
+.hi{
+	z-index: 2;
+	position: relative;
+	bottom: 30px;	
+	left: -5px;
+}
+	
+	.podzagolowok{
+	color: gray;
+	position: absolute;
+	right: 20%;
+	top: 170px;
+	z-index: 2;
+	}
+	
+	.donat{
+	background: #f15b4f;
+	color:white;
+	border: 1px solid #f15b4f;
+	border-radius: 100px;
+	padding: 8px;
+	position: relative;
+	top: 20px;
+	}
+	
+	.pre1{
+			text-align: center;
+	width: 350px;
+	height:150px;
+	background: #6fbd2a;
+	border-radius:30px;
+	position: relative;
+	top: 205px;
+	}
+	
+	.pre2{
+	width: 350px;
+	height: 150px;
+	background:#f15b4f;
+	border-radius:30px;
+	position: relative;
+	bottom: 150px;
+	}
+	
+	.pre3{
+	width: 350px;
+	height: 150px;
+	background: #0054a4;
+	border-radius: 30px;
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
 }

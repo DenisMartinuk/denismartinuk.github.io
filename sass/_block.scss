@@ -88,3 +88,65 @@ h2{
 footer{
 	background: #f1f1f1;
 }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:960px){
+	.mini_history{
+	position: relative;
+	top: 10px;
+}
+
+.section_two{
+	text-align: center;
+	position: relative;
+	bottom: -40px;
+	left: 1px;
+}
+
+.developments_name{
+	position: relative;
+	top: 1px;
+}
+
+.right-text{
+	position: relative;
+	top: 10px;
+}
+
+.section_one{
+	position: relative;
+	right: 80px;
+	top: 850px;
+}
+
+.left-block{
+	
+	text-align: center;
+	position: relative;
+	bottom: -10px;
+	left: -2px;
+	width: 362px;
+	height: 610px;
+	background: white;
+	right: 850px;
+}
+
+.right-block{
+	position: relative;
+	bottom: -30px;
+	text-align: center;
+	right: 10px;
+	width:362px;
+	height: 610px;
+	background: white;
+	}
+
+
+}

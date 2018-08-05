@@ -9,7 +9,7 @@
 .podzagolowok {
   color: gray;
   position: absolute;
-  right: 10px;
+  right: 1%;
   top: 45px;
   z-index: 2; }
 
@@ -20,7 +20,8 @@
   border: 1px solid #0054a4;
   border-radius: 100px;
   color: #0054a4;
-  padding: 8px; }
+  padding: 8px;
+  margin-bottom: 18%; }
 
 .donat {
   background: #f15b4f;
@@ -35,7 +36,7 @@
 .hi {
   z-index: 2;
   position: relative;
-  top: -50px;
+  bottom: 30px;
   left: 70px; }
 
 header {
@@ -108,6 +109,54 @@ pre {
   color: white;
   z-index: 3; }
 
+@media screen and (max-width: 960px) {
+  .hi {
+    z-index: 2;
+    position: relative;
+    bottom: 30px;
+    left: -5px; }
+
+  .podzagolowok {
+    color: gray;
+    position: absolute;
+    right: 20%;
+    top: 170px;
+    z-index: 2; }
+
+  .donat {
+    background: #f15b4f;
+    color: white;
+    border: 1px solid #f15b4f;
+    border-radius: 100px;
+    padding: 8px;
+    position: relative;
+    top: 20px; }
+
+  .pre1 {
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    background: #6fbd2a;
+    border-radius: 30px;
+    position: relative;
+    top: 205px; }
+
+  .pre2 {
+    width: 350px;
+    height: 150px;
+    background: #f15b4f;
+    border-radius: 30px;
+    position: relative;
+    bottom: 150px; }
+
+  .pre3 {
+    width: 350px;
+    height: 150px;
+    background: #0054a4;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    top: 50px; } }
 h2 {
   font-size: 40px; }
 
@@ -184,6 +233,48 @@ h2 {
 footer {
   background: #f1f1f1; }
 
+@media screen and (max-width: 960px) {
+  .mini_history {
+    position: relative;
+    top: 10px; }
+
+  .section_two {
+    text-align: center;
+    position: relative;
+    bottom: -40px;
+    left: 1px; }
+
+  .developments_name {
+    position: relative;
+    top: 1px; }
+
+  .right-text {
+    position: relative;
+    top: 10px; }
+
+  .section_one {
+    position: relative;
+    right: 80px;
+    top: 850px; }
+
+  .left-block {
+    text-align: center;
+    position: relative;
+    bottom: -10px;
+    left: -2px;
+    width: 362px;
+    height: 610px;
+    background: white;
+    right: 850px; }
+
+  .right-block {
+    position: relative;
+    bottom: -30px;
+    text-align: center;
+    right: 10px;
+    width: 362px;
+    height: 610px;
+    background: white; } }
 .video {
   position: relative;
   bottom: 1100px; }
@@ -214,6 +305,20 @@ h2 {
   position: relative;
   left: 350px; }
 
+@media screen and (max-width: 960px) {
+  .video {
+    position: relative;
+    bottom: -80px; }
+
+  .video_one {
+    width: 400px;
+    position: relative;
+    left: -40px; }
+
+  .video_two {
+    width: 400px;
+    position: relative;
+    left: -40px; } }
 .Recent_name {
   position: relative;
   top: 200px; }
@@ -325,5 +430,56 @@ h2 {
 .transform_click:hover {
   color: white;
   background-color: blue; }
+
+@media screen and (max-width: 960px) {
+  .big_photo {
+    position: relative;
+    top: 330px;
+    right: 37px; }
+
+  .all_three_block {
+    position: relativ;
+    top: 430px; }
+
+  .news_left_block {
+    position: relative;
+    background: #ffffff;
+    width: 363px;
+    height: 450px;
+    top: 100px;
+    right: 10px;
+    border-radius: 10px; }
+
+  .news_center_block {
+    position: relative;
+    background: #ffffff;
+    width: 363px;
+    height: 450px;
+    border-radius: 10px;
+    top: 160px; }
+
+  .news_right_block {
+    position: relative;
+    background: #ffffff;
+    width: 363px;
+    height: 450px;
+    border-radius: 10px;
+    left: -1px;
+    top: 250px; }
+
+  .Recent_name {
+    top: 50px; }
+
+  	/*
+  .big_photo{
+  
+  	width: 363px;
+  	height: 450px;
+  	top: 250px;
+  	right: 400px;
+  	border-radius: 10px;
+  	
+  }
+  */ }
 
 /*# sourceMappingURL=style.css.map */
